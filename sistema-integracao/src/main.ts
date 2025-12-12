@@ -1,7 +1,7 @@
 import { createApplication } from '@angular/platform-browser';
 import { createCustomElement } from '@angular/elements';
 import { ToolbarIntegracaoComponent } from './app/toolbar-integracao/toolbar-integracao.component';
-import { provideZoneChangeDetection, provideZonelessChangeDetection } from '@angular/core';
+import { provideZonelessChangeDetection } from '@angular/core';
 
 (async () => {
   const app = await createApplication({ providers: [
