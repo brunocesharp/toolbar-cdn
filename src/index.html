@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Prototipo e-TCE</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            tce: {
+              dark: '#1e3a8a', // Azul escuro
+              light: '#2563eb', // Azul claro
+              pink: '#ec4899',  // Rosa do logo
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 h-screen flex flex-col">
+  <app-root></app-root>
+</body>
+</html>
